@@ -5,6 +5,7 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+    <!-- <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" /> -->
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
@@ -25,18 +26,22 @@
     <div class="header">
       <div class="navbar navbar-default" role="navigation">
         <div class="container">
-          <div class="navbar-header">
 
+          <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="js-navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-
-            <a class="navbar-brand" href="/">hchsAlumniWebsiteApp</a>
+            <!-- <a class="navbar-brand" href="/">Health Careers Alumni</a> -->
           </div>
 
+          <!--
+            <md-nav-item md-nav-click="goto('page3')" name="page3">
+              Scholarship
+            </md-nav-item>
+          </md-nav-bar> -->
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
             <ul class="nav navbar-nav">
               <li class="nav-item"><a href="/">Home</a></li>
@@ -44,13 +49,41 @@
                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   About
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="/about">About Us</a>
-                  <a class="dropdown-item" href="/purpose">Purpose</a>
-                  <a class="dropdown-item" href="/board">Board Members</a>
-                  <a class="dropdown-item" href="/bylaws">Bylaws</a>
-                </div>
-                <!-- <a ng-href="/about">About</a> -->
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/about">About Us</a></li>
+                  <li><a class="dropdown-item" href="/purpose">Purpose</a></li>
+                  <li><a class="dropdown-item" href="/board">Board Members</a></li>
+                  <li><a class="dropdown-item" href="/bylaws">Bylaws</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  News
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/newsletter">Newsletter</a></li>
+                  <li><a class="dropdown-item" href="/notableAlumni">Notable Alumni</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a ng-href="/events">Events</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Membership
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/membershipCategories">Categories of Membership</a></li>
+                  <li><a class="dropdown-item" href="/join">Become a Member</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Scholarship
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/scholarshipOverview">Scholarship Overview</a></li>
+                  <li><a class="dropdown-item" href="/submit">Submit Application</a></li>
+                  <li><a class="dropdown-item" href="/recipients">Scholarship Recipients</a></li>
+                </ul>
               </li>
               <li class="nav-item"><a ng-href="/contact">Contact</a></li>
             </ul>
@@ -65,7 +98,7 @@
 
     <div class="footer">
       <div class="container">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <p><span class="glyphicon glyphicon-copyright-mark"></span> HCHS Alumni Board of Directors</p>
       </div>
     </div>
 

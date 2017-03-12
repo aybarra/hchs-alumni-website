@@ -94,6 +94,11 @@ angular
         controller: 'ContactCtrl',
         controllerAs: 'contact'
       })
+      .when('/membershipCategories', {
+        templateUrl: 'views/membershipcategories.html',
+        controller: 'MembershipcategoriesCtrl',
+        controllerAs: 'membershipCategories'
+      })
       .otherwise({
         redirectTo: '/'
       });
