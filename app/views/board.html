@@ -1,1 +1,7 @@
-<p>This is the board view.</p>
+<div ng-repeat="boardMember in boardMembers" ng-if="boardMember.bioText">
+  <h3>{{boardMember.name}}</h3>
+  <h4>{{boardMember.position}}</h4>
+  <img class="board-headshot-circle" src="{{boardMember.imagePath}}" alt="{{boardMember.altText}}">
+  <p class="bio-text">{{boardMember.bioText}}</p>
+  <br/><br/>
+</div>

@@ -1,0 +1,24 @@
+.board-headshot-circle {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  float: left;
+  height: 150px;
+  width: 150px;
+}
+
+.board-headshot-square {
+  /*display: inline-block;*/
+  float: left;
+  width: 150px;
+  height: 170px;
+  /*border-radius: 50%;*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bio-text {
+  font-style: italic;
+}
