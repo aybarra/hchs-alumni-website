@@ -55,7 +55,7 @@ angular.module('hchsAlumniWebsiteAppApp')
         position: 'Co-Chair of Membership Committee',
         imagePath: 'images/andy-ybarra.jpg',
         altText: 'Andy Headshot',
-        bioText: 'Andy graduated from Health Careers High School in 2009 where he served as Class President for four years. He received a Bachelor of Science in Computer Engineering and Computer Science from the University of Southern California, and an Master of Science in Computer Science from Georgia Tech specializing in Human Computer Interaction. He is currently a software engineer for Adobe in Seattle, WA. In his spare time he is spending time with his new puppy and training him to do tricks like not going potty inside the house.'
+        bioText: 'Andy graduated from Health Careers High School in 2009 where he served as Class President for four years. He received a Bachelor of Science in Computer Engineering and Computer Science from the University of Southern California. He was awarded the GEM Fellowship in 2014 and received a Master of Science in Computer Science from Georgia Tech specializing in Human Computer Interaction. He is currently a software engineer for Adobe in Seattle, WA. In his spare time he is spending time with his new puppy and training him to do tricks like not going potty inside the house.'
       }
     ];
   });
