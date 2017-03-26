@@ -30,6 +30,7 @@ angular.module('hchsAlumniWebsiteAppApp')
         position: 'Secretary',
         imagePath: 'images/katie-singleton.jpg',
         altText: 'Katie Headshot',
+        bioText: 'Katie graduated from Health Careers High School in 2009. During her time at Health Careers, she was in the choir and met her future husband, Derick. She graduated from the University of Texas at San Antonio with a Bachelors in Psychology. Katie currently lives in Colorado where she works for the Girl Scouts of Colorado and is earning her Masters in Public Administration from the University of Colorado Denver. Katie currently volunteers with the Muscular Dystrophy Association and serves on the Young Nonprofit Professionals Network Denver Board of Directors.'
       },
       {
         name: 'Anusha Goud',
