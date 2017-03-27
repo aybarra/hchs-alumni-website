@@ -47,9 +47,10 @@ angular.module('hchsAlumniWebsiteAppApp')
       },
       {
         name: 'Warren Sheridan',
-        position: 'Co-Chair of Scholarship Committee',
+        position: 'Co-Chair of Membership Committee',
         imagePath: 'images/warren-sheridan.jpg',
         altText: 'Warren Headshot',
+        bioText: 'Born and raised in San Antonio Texas , Warren Martin Sheridan Jr attended Northside Health Careers High School and graduated as a part of the class of 2009. After High School, Warren attended Northwest Vista College where he received an Associates in Psychology then to Texas A&M University-San Antonio where he graduated Magna Cumme Laude and received a Bachelor\'s in Psychology in 2013. In April of 2014, Warren became employed with the Texas Department of Family and Protective Services where he currently serves as the managing conservator for abused and neglected children of Bexar County. During his tenure with the Department of Family Protective Services, Warren returned to Texas A&M University-San Antonio where he studied mental health counseling and will graduate with his masters degree in May 2017. Warren currently interns at non-profit organization where he is earning his hours necessary to be a licensed professional counselor. Warren enjoys traveling, reading, cooking listening to music (especially Frank Sinatra), dancing poorly, and spending time with his niece and nephew.'
       },
       {
         name: 'Andy Ybarra',
