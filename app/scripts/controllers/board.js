@@ -37,6 +37,7 @@ angular.module('hchsAlumniWebsiteAppApp')
         position: 'Co-Chair of Scholarship Committee',
         imagePath: 'images/anusha-goud.jpg',
         altText: 'Anusha Headshot',
+        bioText: 'Anusha graduated from Health Careers High School in 2009. During her time at Health Careers, she was actively involved in Health Occupation Students of America and Business Professionals of America. She received a Bachelor of Science in Biology and Sociology from Texas A&M University-Commerce and is working on earning her Masters in Public Health. She is currently a Supervisor of Practice Operations at The Children’s Hospital of San Antonio Primary Care, an entity of CHRISTUS Health which is a not-for-profit health system. Anusha is very passionate about helping others and volunteers her time and diverse skills with various non-profit organizations to execute their humanitarian efforts. In her spare time, she enjoys traveling, cooking and spending quality time with her family and friends.'
       },
       {
         name: 'Cheryl Sarem',
