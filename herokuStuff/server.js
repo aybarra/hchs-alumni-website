@@ -4,15 +4,8 @@ var app = express();
 
 app.use(express.static(__dirname));
 
-app.all('/*', function(req, res, next) {
-    res.format({
-      html: function() {
-        res.sendFile(path.join(__dirname, 'index.html'));
-      },
-      json: function() {
-        next();
-      }
-    });
+app.get('*', function(request, response, next) {
+  response.sendfile(__dirname + '/index.html');
 });
 
 var port = process.env.PORT || 3000;
