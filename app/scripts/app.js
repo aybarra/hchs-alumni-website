@@ -24,76 +24,76 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
-      })
-      .when('/purpose', {
-        templateUrl: 'views/purpose.html',
-        controller: 'PurposeCtrl',
-        controllerAs: 'purpose'
-      })
+      // .when('/about', {
+      //   templateUrl: 'views/about.html',
+      //   controller: 'AboutCtrl',
+      //   controllerAs: 'about'
+      // })
+      // .when('/purpose', {
+      //   templateUrl: 'views/purpose.html',
+      //   controller: 'PurposeCtrl',
+      //   controllerAs: 'purpose'
+      // })
       .when('/board', {
         templateUrl: 'views/board.html',
         controller: 'BoardCtrl',
         controllerAs: 'board'
       })
-      .when('/bylaws', {
-        templateUrl: 'views/bylaws.html',
-        controller: 'BylawsCtrl',
-        controllerAs: 'bylaws'
-      })
-      .when('/newsletter', {
-        templateUrl: 'views/newsletter.html',
-        controller: 'NewsletterCtrl',
-        controllerAs: 'newsletter'
-      })
-      .when('/notableAlumni', {
-        templateUrl: 'views/notablealumni.html',
-        controller: 'NotablealumniCtrl',
-        controllerAs: 'notableAlumni'
-      })
-      .when('/events', {
-        templateUrl: 'views/events.html',
-        controller: 'EventsCtrl',
-        controllerAs: 'events'
-      })
-      .when('/membershipCategories', {
-        templateUrl: 'views/membershipcategories.html',
-        controller: 'MembershipcategoriesCtrl',
-        controllerAs: 'membershipCategories'
-      })
-      .when('/join', {
-        templateUrl: 'views/join.html',
-        controller: 'JoinCtrl',
-        controllerAs: 'join'
-      })
-      .when('/scholarshipOverview', {
-        templateUrl: 'views/scholarshipoverview.html',
-        controller: 'ScholarshipoverviewCtrl',
-        controllerAs: 'scholarshipOverview'
-      })
-      .when('/submit', {
-        templateUrl: 'views/submit.html',
-        controller: 'SubmitCtrl',
-        controllerAs: 'submit'
-      })
-      .when('/recipients', {
-        templateUrl: 'views/recipients.html',
-        controller: 'RecipientsCtrl',
-        controllerAs: 'recipients'
-      })
-      .when('/contact', {
-        templateUrl: 'views/contact.html',
-        controller: 'ContactCtrl',
-        controllerAs: 'contact'
-      })
-      .when('/membershipCategories', {
-        templateUrl: 'views/membershipcategories.html',
-        controller: 'MembershipcategoriesCtrl',
-        controllerAs: 'membershipCategories'
-      })
+      // .when('/bylaws', {
+      //   templateUrl: 'views/bylaws.html',
+      //   controller: 'BylawsCtrl',
+      //   controllerAs: 'bylaws'
+      // })
+      // .when('/newsletter', {
+      //   templateUrl: 'views/newsletter.html',
+      //   controller: 'NewsletterCtrl',
+      //   controllerAs: 'newsletter'
+      // })
+      // .when('/notableAlumni', {
+      //   templateUrl: 'views/notablealumni.html',
+      //   controller: 'NotablealumniCtrl',
+      //   controllerAs: 'notableAlumni'
+      // })
+      // .when('/events', {
+      //   templateUrl: 'views/events.html',
+      //   controller: 'EventsCtrl',
+      //   controllerAs: 'events'
+      // })
+      // .when('/membershipCategories', {
+      //   templateUrl: 'views/membershipcategories.html',
+      //   controller: 'MembershipcategoriesCtrl',
+      //   controllerAs: 'membershipCategories'
+      // })
+      // .when('/join', {
+      //   templateUrl: 'views/join.html',
+      //   controller: 'JoinCtrl',
+      //   controllerAs: 'join'
+      // })
+      // .when('/scholarshipOverview', {
+      //   templateUrl: 'views/scholarshipoverview.html',
+      //   controller: 'ScholarshipoverviewCtrl',
+      //   controllerAs: 'scholarshipOverview'
+      // })
+      // .when('/submit', {
+      //   templateUrl: 'views/submit.html',
+      //   controller: 'SubmitCtrl',
+      //   controllerAs: 'submit'
+      // })
+      // .when('/recipients', {
+      //   templateUrl: 'views/recipients.html',
+      //   controller: 'RecipientsCtrl',
+      //   controllerAs: 'recipients'
+      // })
+      // .when('/contact', {
+      //   templateUrl: 'views/contact.html',
+      //   controller: 'ContactCtrl',
+      //   controllerAs: 'contact'
+      // })
+      // .when('/membershipCategories', {
+      //   templateUrl: 'views/membershipcategories.html',
+      //   controller: 'MembershipcategoriesCtrl',
+      //   controllerAs: 'membershipCategories'
+      // })
       .otherwise({
         redirectTo: '/'
       });
