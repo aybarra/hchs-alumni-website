@@ -132,7 +132,8 @@ p.contact-str {
 }
 
 #hchs-js-navbar-collapse > ul > li.nav-item.dropdown.open > ul > li > a.dropdown-item:hover {
-  background-color: #08324D;
+  /*background-color: #08324D;*/
+  color: #08324D;
 }
 
 .hchs-logo img {
