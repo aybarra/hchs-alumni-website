@@ -5,6 +5,10 @@
   padding: 0.2em 0;
 }
 
+html {
+
+}
+
 body {
   padding: 0;
 }
@@ -102,4 +106,42 @@ body {
 
 p.contact-str {
   font-size: 20px;
+}
+
+#hchs-js-navbar-collapse {
+  background-color: #08324D;
+}
+
+.hchs-header,
+.hchs-header .dropdown-menu {
+  background-color: #08324D;
+  border-color: #08324D;
+}
+
+#hchs-js-navbar-collapse > ul > li.nav-item.dropdown.open a {
+  color: #08324D;
+}
+
+.hchs-nav-bar {
+  margin-bottom: 0px;
+}
+
+#hchs-js-navbar-collapse > ul > li.nav-item a,
+#hchs-js-navbar-collapse > ul > li.nav-item.dropdown.open > ul > li > a.dropdown-item {
+  color: white;
+}
+
+#hchs-js-navbar-collapse > ul > li.nav-item.dropdown.open > ul > li > a.dropdown-item:hover {
+  background-color: #08324D;
+}
+
+.hchs-logo img {
+  background-color: #a21d2c;
+  border-radius: 2px;
+  box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.42);
+  height: 100px;
+  left: 4.75%;
+  margin-right: 10px;
+  position: absolute;
+  width: 100px;
 }

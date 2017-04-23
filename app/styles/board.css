@@ -6,6 +6,8 @@
   float: left;
   height: 150px;
   width: 150px;
+  margin-top: 60px;
+  margin-right: 10px;
 }
 
 .board-headshot-square {
@@ -21,4 +23,22 @@
 
 .bio-text {
   font-style: italic;
+}
+
+.panel-heading {
+}
+
+.panel-primary > .panel-heading {
+  background-color: #a21d2c;
+}
+
+.board-name {
+  margin-bottom: 0px;
+}
+.board-position {
+    font-size: 21px;
+}
+
+.board-info-container {
+  overflow: hidden;
 }
