@@ -16,7 +16,7 @@ angular.module('hchsAlumniWebsiteAppApp')
         position: 'President',
         imagePath: 'images/sunny-patel.jpg',
         altText: 'Sunny Headshot',
-        bioText: 'Sunny graduated Health Careers High School as a member of the Class of 2009 where he lettered in golf. Sunny received a Bachelors in Economics from Pepperdine University in Malibu, California and was an active member of the Lambda Sigma Chapter of Psi Upsilon Fraternity. He is currently a licensed securities broker and investment advisor with Williams Financial Group in Dallas, Texas where he serves as a Regional Director in Sales Supervision and as the Firm’s Municipal Securities Principal. Sunny is also an avid philanthropist, working with and serving on the Board of various charitable organizations. In his free time, Sunny plays golf and runs half-marathons for the kids.'
+        bioText: 'Sunny graduated Health Careers High School as a member of the Class of 2009 where he lettered in golf. He received a Bachelors in Economics from Pepperdine University in Malibu, California and was an active member of the Lambda Sigma Chapter of Psi Upsilon Fraternity. Sunny is currently an Assistant Vice President at Morgan Stanley where he serves a Complex Risk Officer in Dallas, Texas. Sunny is also an avid philanthropist, working with and serving on the Board of various charitable organizations. In his free time, Sunny plays golf and runs half-marathons for the kids.'
       },
       {
         name: 'Elle Gonzalez',
